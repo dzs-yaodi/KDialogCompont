@@ -24,8 +24,8 @@ class MessageFragment: Fragment() {
         tv_title.text = "List of your messages:"
 
         progressbar.postDelayed({
-            tv_content.text = "You do not have any messages yet"
-            progressbar.visibility = View.GONE
-        }, 3000)
+            tv_content?.text = "You do not have any messages yet"
+            progressbar?.visibility = View.GONE
+        }, 300)
     }
 }

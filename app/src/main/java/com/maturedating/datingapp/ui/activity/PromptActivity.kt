@@ -24,7 +24,7 @@ class PromptActivity: BaseActivity() {
 
         btn_continue.setOnClickListener {
             if (!TextUtils.isEmpty(name)) {
-                startActivity(Intent(this, AgeActivity::class.java))
+                startActivity(Intent(this, RegisterNewActivity::class.java))
             } else {
                 startActivity(Intent(this, HomeActivity::class.java))
             }

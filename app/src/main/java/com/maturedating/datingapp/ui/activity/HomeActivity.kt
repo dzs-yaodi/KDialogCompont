@@ -1,6 +1,7 @@
 package com.maturedating.datingapp.ui.activity
 
 import android.os.Bundle
+import com.mature.baselib.utils.UITools
 import com.maturedating.datingapp.R
 import com.maturedating.datingapp.ui.fragment.MessageFragment
 import com.maturedating.datingapp.ui.fragment.UsersFragment
@@ -13,6 +14,7 @@ class HomeActivity: BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+        UITools.initTitleColorBar(this,findViewById(R.id.frame_contailer),"#404873")
 
         tv_user.setOnClickListener {
             if (index == 1) {

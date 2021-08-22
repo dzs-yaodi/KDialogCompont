@@ -23,9 +23,9 @@ class UsersFragment: Fragment() {
 
         tv_title.text = "This users are online now:"
 
-        progressbar.postDelayed(Runnable {
-            tv_content.text = "No users online"
-            progressbar.visibility = View.GONE
-        }, 3000)
+        progressbar.postDelayed({
+            tv_content?.text = "No users online"
+            progressbar?.visibility = View.GONE
+        }, 300)
     }
 }

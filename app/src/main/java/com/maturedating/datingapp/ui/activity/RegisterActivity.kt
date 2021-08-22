@@ -16,6 +16,7 @@ class RegisterActivity: BaseActivity() {
         progressbar.postDelayed({
             val intent = Intent(this, PromptActivity::class.java)
             startActivity(intent)
+            finish()
         },2000)
     }
 }

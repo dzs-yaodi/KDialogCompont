@@ -45,6 +45,8 @@
         <activity android:name="com.maturedating.datingapp.ui.activity.HomeActivity"/>
 
         <activity android:name="com.maturedating.datingapp.ui.activity.WebViewActivity"/>
+
+        <activity android:name=".ui.activity.RegisterNewActivity"/>
     </application>
 
 </manifest>

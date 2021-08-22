@@ -6,36 +6,20 @@
     android:orientation="vertical">
 
     <FrameLayout
+        android:id="@+id/frame_contailer"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:background="#000000">
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@mipmap/klogo"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="15dp"
-            />
+        android:layout_height="69dp"
+        android:background="#404873">
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:textColor="#FFFFFF"
-            android:layout_gravity="center"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center_vertical"
             android:textStyle="bold"
             android:textSize="20dp"
             android:text="Users onLine"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|end"
-            android:text="@string/app_dialog_logo_name"
-            android:textColor="#FFFFFF"
-            android:layout_marginEnd="15dp"
-            android:textSize="16dp"
-            />
 
     </FrameLayout>
 
@@ -56,7 +40,7 @@
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:text="Users"
-            android:background="#EC4C19"
+            android:background="#0C0C0C"
             android:textColor="#fff"
             android:gravity="center"
             android:textSize="20dp"
@@ -72,7 +56,7 @@
             android:layout_weight="1"
             android:layout_height="match_parent"
             android:text="Message"
-            android:background="#E1B123"
+            android:background="#DAD5C8"
             android:textColor="#fff"
             android:gravity="center"
             android:textSize="20dp"
