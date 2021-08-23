@@ -2,4 +2,9 @@
     <string name="app_name">MatureDating</string>
 
     <string name="app_dialog_logo_name">local meet</string>
+    <!--10^4-->
+    <string name="msg_unit_10_4">万</string>
+    <string name="msg_unit_billion">亿</string>
+    <string name="msg_unit_10_12">万亿</string>
+    <string name="msg_unit_10_16">京</string>
 </resources>
