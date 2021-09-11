@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.maturedating.datingapp">
+    package="com.afftechlimited.adultdatingapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
-        android:name="com.maturedating.datingapp.KApplication"
+        android:name="com.afftechlimited.adultdatingapp.KApplication"
         android:allowBackup="true"
         android:icon="@mipmap/klogo"
         android:label="@string/app_name"
@@ -20,7 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.SplashActivity"
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.SplashActivity"
             android:theme="@style/AppWelcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,25 +29,25 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.EmailActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.EmailActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.GenderActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.GenderActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.LookForActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.LookForActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.NameActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.NameActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.RegisterActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.RegisterActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.PromptActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.PromptActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.AgeActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.AgeActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.HomeActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.HomeActivity"/>
 
-        <activity android:name="com.maturedating.datingapp.ui.activity.WebViewActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.WebViewActivity"/>
 
-        <activity android:name=".ui.activity.RegisterNewActivity"/>
+        <activity android:name="com.afftechlimited.adultdatingapp.ui.activity.RegisterNewActivity"/>
     </application>
 
 </manifest>
