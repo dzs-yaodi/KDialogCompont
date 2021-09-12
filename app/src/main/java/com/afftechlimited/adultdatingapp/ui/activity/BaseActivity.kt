@@ -22,6 +22,9 @@ open class BaseActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+    }
+
+    fun setPermissiont() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             val checkCallPhonePermission0 = ContextCompat.checkSelfPermission(this, permission[0])
             val checkCallPhonePermission1 = ContextCompat.checkSelfPermission(this, permission[1])
