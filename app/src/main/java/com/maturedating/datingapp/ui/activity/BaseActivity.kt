@@ -15,13 +15,16 @@ open class BaseActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+    }
+
+    fun setPermission() {
         val d = rxPermissions.request(Manifest.permission.CAMERA,
-                Manifest.permission.READ_EXTERNAL_STORAGE,
-                Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                .subscribe { granted: Boolean? ->
-                    if (!granted!!) {
-                        Toast.makeText(this, "Please enable the necessary permissions", Toast.LENGTH_SHORT).show()
-                    }
+            Manifest.permission.READ_EXTERNAL_STORAGE,
+            Manifest.permission.WRITE_EXTERNAL_STORAGE)
+            .subscribe { granted: Boolean? ->
+                if (!granted!!) {
+                    Toast.makeText(this, "Please enable the necessary permissions", Toast.LENGTH_SHORT).show()
                 }
+            }
     }
 }
